@@ -2,7 +2,7 @@ export default {
   /**
    * basic Information
    */
-  title: `nageune.github.io`,
+  title: `nageune`,
   description: `나그네 개발자`,
   language: `ko`,
   siteUrl: `https://nageune.github.io/`,
