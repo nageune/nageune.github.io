@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://nageune.github.io/sitemap.xml
+Host: https://nageune.github.io
