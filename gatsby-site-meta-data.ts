@@ -13,7 +13,7 @@ export default {
    */
   comments: {
     utterances: {
-      repo: ``, //`nageune/nageune.github.io`,
+      repo: `nageune/nageune.github.io`,
     },
   },
 
