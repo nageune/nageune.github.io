@@ -1,9 +1,9 @@
 {
-  "name": "danmin-gatsby-blog",
+  "name": "nageune.github.io",
   "private": true,
-  "description": "gatsby blog made by danmin",
+  "description": "gatsby blog made by nageune",
   "version": "0.1.0",
-  "author": "danmin20 <ljm991108@gmail.com>",
+  "author": "nageune <kangkh0906@khu.ac.kr>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },

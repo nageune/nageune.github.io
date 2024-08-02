@@ -25,15 +25,15 @@ const PostTemplate: React.FC<PostTemplateProps> = ({ location, data }) => {
 
   return (
     <Layout location={location}>
-      <Seo title={`개발자 단민 | ${curPost?.title}`} description={curPost?.excerpt} />
+      <Seo title={`나그네 개발자 | ${curPost?.title}`} description={curPost?.excerpt} />
       <PostHeader post={curPost} />
       <S.PostContent>
         <div className='markdown' dangerouslySetInnerHTML={{ __html: curPost.html }} />
       </S.PostContent>
-      <S.BuyMeACoffeeWrapper>
+      {/* <S.BuyMeACoffeeWrapper>
         <div>👇 도움이 되셨다면 👇</div>
         <BuyMeACoffee />
-      </S.BuyMeACoffeeWrapper>
+      </S.BuyMeACoffeeWrapper> */}
       <PostNavigator prevPost={prevPost} nextPost={nextPost} />
       <Utterances repo={utterancesRepo} path={curPost.slug} />
     </Layout>
@@ -49,7 +49,7 @@ export const pageQuery = graphql`
       html
       excerpt(pruneLength: 500, truncate: true)
       frontmatter {
-        date(formatString: "YYYY.MM.DD")
+        date(formatString: "YYYY.MM.DD.")
         title
         categories
         emoji
@@ -63,7 +63,7 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "YYYY.MM.DD")
+        date(formatString: "YYYY.MM.DD.")
         title
         categories
         emoji
@@ -77,7 +77,7 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "YYYY.MM.DD")
+        date(formatString: "YYYY.MM.DD.")
         title
         categories
         emoji

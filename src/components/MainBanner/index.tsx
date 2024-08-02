@@ -33,7 +33,7 @@ const MainBanner: React.FC<MainBannerProps> = ({ author }) => {
           </strong>
           입니다.
         </S.Title>
-        <Image alt='thumbnail' src='thumbnail.png' />
+        {/* <Image alt='thumbnail' src='thumbnail.png' /> */}
         <S.SocialWrapper>
           {Object.keys(social).map(
             (link, index) =>
@@ -46,7 +46,7 @@ const MainBanner: React.FC<MainBannerProps> = ({ author }) => {
           {/* space-between을 위한 빈 div */}
           <div />
           <S.DropdownButton onMouseLeave={() => setIsDropdownOpened(false)}>
-            <div onMouseEnter={() => setIsDropdownOpened(true)}>etc.</div>
+            <div onMouseEnter={() => setIsDropdownOpened(true)}>ps / cp</div>
             {isDropdownOpened && (
               <S.Dropdown>
                 {Object.keys(dropdown).map(
@@ -63,9 +63,9 @@ const MainBanner: React.FC<MainBannerProps> = ({ author }) => {
         </S.SocialWrapper>
       </S.IntroWrapper>
 
-      <S.BuyMeACoffeeWrapper>
+      {/* <S.BuyMeACoffeeWrapper>
         <BuyMeACoffee />
-      </S.BuyMeACoffeeWrapper>
+      </S.BuyMeACoffeeWrapper> */}
     </S.Wrapper>
   );
 };
