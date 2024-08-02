@@ -67,7 +67,7 @@ export default {
 		date: '2023. 9.',
 		en: 'shake! 2023',
 		kr: '2023 경인지역 6개 대학 연합 프로그래밍 경시대회 shake!',
-		info: '경희대학교 선발전 7th Place',
+		info: '경희대학교 선발전 7th Place, 본선 진출',
 		link: '',
 	  },
   ],
