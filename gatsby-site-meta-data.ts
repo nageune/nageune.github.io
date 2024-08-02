@@ -23,11 +23,11 @@ export default {
   author: {
     name: `강경현`,
     nickname: `나그네`,
-    stack: ['PS', 'CP', '알고리즘', '문제해결', 'C++'],
+    stack: ['PS', 'CP', 'C++'],
     bio: {
       email: `kangkh0906@khu.ac.kr`,
       residence: 'Geoje, Republic of Korea',
-      bachelorDegree: 'Kyung Hee University Computer Science & Engineering (2022. 3.-',
+      bachelorDegree: 'Kyung Hee University Computer Science & Engineering (2022. 3.-)',
     },
     social: {
       github: `https://github.com/nageune`,
