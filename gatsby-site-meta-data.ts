@@ -23,7 +23,7 @@ export default {
   author: {
     name: `강경현`,
     nickname: `나그네`,
-    stack: ['PS', 'CP', 'C++'],
+    stack: ['PS', 'CP', '알고리즘', '문제해결', 'C++'],
     bio: {
       email: `kangkh0906@khu.ac.kr`,
       residence: 'Geoje, Republic of Korea',
