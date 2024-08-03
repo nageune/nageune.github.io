@@ -55,7 +55,7 @@ export const pageQuery = graphql`
             categories
             title
             emoji
-            date(formatString: "YYYY.MM.DD")
+            date(formatString: "YYYY. M. D.")
           }
           fields {
             slug
