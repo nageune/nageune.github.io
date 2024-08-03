@@ -57,8 +57,8 @@ export default {
 	  {
 		category: 'Contest',
 		date: '2022. 9.',
-		en: 'KHU SWC Contest for Club Unity',
-		kr: '경희대학교 동아리 단합 공모전',
+		en: '2022 KHU Club Unity Contest',
+		kr: '2022 경희대학교 동아리 단합 공모전',
 		info: '3rd Prize',
 		link: '',
 	  },
