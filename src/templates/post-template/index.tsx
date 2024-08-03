@@ -49,7 +49,7 @@ export const pageQuery = graphql`
       html
       excerpt(pruneLength: 500, truncate: true)
       frontmatter {
-        date(formatString: "YYYY.MM.DD.")
+        date(formatString: "yyyy.mm.dd.")
         title
         categories
         emoji
@@ -63,7 +63,7 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "YYYY.MM.DD.")
+        date(formatString: "yyyy.mm.dd.")
         title
         categories
         emoji
@@ -77,7 +77,7 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "YYYY.MM.DD.")
+        date(formatString: "yyyy.mm.dd.")
         title
         categories
         emoji

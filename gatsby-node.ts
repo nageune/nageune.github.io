@@ -107,7 +107,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ graphql, actions,
             frontmatter {
               categories
               title
-              date(formatString: "YYYY.MM.DD")
+              date(formatString: "yyyy.mm.dd.")
             }
           }
           next {
