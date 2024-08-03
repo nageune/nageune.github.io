@@ -25,9 +25,9 @@ export default {
     nickname: `나그네`,
     stack: ['PS', 'CP', 'C++'],
     bio: {
-      email: `kangkh0906@khu.ac.kr`,
+      email: `nageune.dev@gmail.com`,
       residence: 'Geoje, Republic of Korea',
-      bachelorDegree: 'Kyung Hee University Computer Science & Engineering (2022. 3.-)',
+      bachelorDegree: 'Kyung Hee University Computer Science & Engineering (2022. 3.-Present)',
     },
     social: {
       github: `https://github.com/nageune`,
