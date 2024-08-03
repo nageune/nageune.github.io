@@ -31,6 +31,7 @@ export default {
     },
     social: {
       github: `https://github.com/nageune`,
+	  linkedin: `https://www.linkedin.com/in/nageune`,
       resume: `https://nageune.github.io`,
     },
     dropdown: {
