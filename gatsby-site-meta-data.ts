@@ -45,10 +45,10 @@ export default {
    * definition of featured posts
    */
   featured: [
-    // {
-    //   title: '회고',
-    //   category: 'featured-회고',
-    // },
+    {
+      title: '',
+      category: '',
+    },
   ],
 
   /**
