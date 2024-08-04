@@ -69,6 +69,14 @@ const Seo: React.FC<SeoProps> = ({ description, title }) => {
           property: `og:type`,
           content: `website`,
         },
+		{
+		  name: `google-site-verification`,
+		  content: `nWVP4ugaYLDSEW750hV6nMuNPXxIfLmD-Cce-Wrpad0`,
+		},
+		{
+		  name: `naver-site-verification`,
+		  content: `02596b744e27632299ccef00b6a043b066e52fa7`,
+		},
       ]}
     />
   );
