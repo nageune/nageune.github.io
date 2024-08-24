@@ -26,14 +26,14 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-google-adsense`,
       options: {
-        publisherId: `ca-pub-XXXXXXXXXXXX`,
+        publisherId: `ca-pub-2691334551039963`,
       },
     },
     // Google Analytics
     {
       resolve: `gatsby-plugin-gtag`,
       options: {
-        trackingId: `G-XXXXXXXX`,
+        trackingId: `G-2P8BPGK835`,
         head: true,
       },
     },
