@@ -27,7 +27,7 @@ export default {
     bio: {
       email: `nageune.dev@gmail.com`,
       residence: 'Geoje, Republic of Korea',
-      bachelorDegree: 'Kyung Hee University Computer Science & Engineering (2022. 3.-Present)',
+      bachelorDegree: 'Kyung Hee Univ. Computer Science & Engineering (2022. 3.-Present)',
     },
     social: {
       github: `https://github.com/nageune`,
