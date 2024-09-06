@@ -53,6 +53,7 @@ export const Timestamp = styled.div`
 `;
 
 export const Date = styled.div`
+  font-size: 14px;
   margin-left: 5px;
   margin-right: 5px;
   width: 200px;
@@ -102,6 +103,7 @@ export const TitleKr = styled.div`
 `;
 
 export const Info = styled.div`
+  font-size: 14px;
   margin-top: 5px;
   @media ${MOBILE_MEDIA_QUERY} {
     font-size: 10px;

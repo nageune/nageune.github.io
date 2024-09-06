@@ -75,10 +75,10 @@ export default {
 	  // Activity
 	  {
 		category: 'Activity',
-		date: '2022. 3.-',
+		date: '2022. 3. - Present',
 		en: 'Hacker',
 		kr: '해커',
-		info: 'Kyung Hee University Dept. of CSE Academic Club',
+		info: 'Kyung Hee University School of Computing Academic Club',
 		link: '',
 	  },
   ],
