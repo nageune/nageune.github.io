@@ -8,21 +8,21 @@ import Layout from '../layout';
 import { MOBILE_MEDIA_QUERY } from '../styles/const';
 import { SiteMetadata } from '../type';
 
-type PlaygroundProps = {
+type ProjectsProps = {
   data: {
     site: { siteMetadata: SiteMetadata };
   };
   location: Location;
 };
 
-const Playground: React.FC<PlaygroundProps> = ({ location, data }) => {
+const Projects: React.FC<ProjectsProps> = ({ location, data }) => {
   const metaData = data.site.siteMetadata;
   const { projects } = metaData;
 
   return (
     <Layout location={location}>
-      <Seo title='나그네 개발자 | Playground' />
-      <Title>Playground!</Title>
+      <Seo title='나그네 개발자 | Projects' />
+      <Title>Projects</Title>
       <ProjectCardsWrapper>
         {projects.map((project, index) => (
           <ProjectCard key={index} project={project} />
@@ -32,7 +32,7 @@ const Playground: React.FC<PlaygroundProps> = ({ location, data }) => {
   );
 };
 
-export default Playground;
+export default Projects;
 
 export const pageQuery = graphql`
   query {

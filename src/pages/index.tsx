@@ -80,7 +80,7 @@ export const pageQuery = graphql`
           social {
             github
 			linkedin
-            resume
+            email
           }
           dropdown {
             solvedac
