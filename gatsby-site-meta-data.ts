@@ -32,7 +32,7 @@ export default {
     social: {
       github: `https://github.com/nageune`,
 	  linkedin: `https://www.linkedin.com/in/nageune`,
-      resume: `https://nageune.github.io`,
+      email: `mailto:nageune.dev@gmail.com`,
     },
     dropdown: {
       solvedac: 'https://solved.ac/profile/kangkh0906',
@@ -46,8 +46,8 @@ export default {
    */
   featured: [
     {
-      title: '',
-      category: '',
+      title: 'Featured',
+      category: 'featured-PS',
     },
   ],
 
@@ -55,6 +55,7 @@ export default {
    * metadata for About Page
    */
   timestamps: [
+	  // Contest
 	  {
 		category: 'Contest',
 		date: '2022. 9.',
@@ -69,6 +70,15 @@ export default {
 		en: 'shake! 2023',
 		kr: '2023 경인지역 6개 대학 연합 프로그래밍 경시대회',
 		info: '경희대학교 선발전 7th Place, 본선 진출',
+		link: '',
+	  },
+	  // Activity
+	  {
+		category: 'Activity',
+		date: '2022. 3.-',
+		en: 'Hacker',
+		kr: '해커',
+		info: 'Kyung Hee University Dept. of CSE Academic Club',
 		link: '',
 	  },
   ],

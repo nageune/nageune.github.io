@@ -30,7 +30,7 @@ const About: React.FC<AboutProps> = ({ location, data }) => {
     <Layout location={location}>
       <Seo title='나그네 개발자 | About' />
       <MainBanner author={author} />
-      <Bio bio={author.bio} />
+      {/* <Bio bio={author.bio} /> */}
 
       {Object.keys(stamps).map((key) => (
         <Timestamps key={key} title={key} timestamps={stamps[key]} />
@@ -58,7 +58,7 @@ export const pageQuery = graphql`
           social {
             github
 			linkedin
-            resume
+            email
           }
           dropdown {
             solvedac
