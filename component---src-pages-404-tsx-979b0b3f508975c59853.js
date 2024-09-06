@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunknageune_github_io=self.webpackChunknageune_github_io||[]).push([[218],{2513:function(n,u,t){t.r(u),t.d(u,{Head:function(){return a}});var e=t(6858),o=t(2754),i=t(3431),a=function(){return(0,i.jsx)(e.Z,{title:"404: Not Found"})};u.default=function(n){var u=n.location;return(0,i.jsx)(o.Z,{location:u},(0,i.jsx)("h1",null,"404: Not Found"))}}}]);
+//# sourceMappingURL=component---src-pages-404-tsx-979b0b3f508975c59853.js.map
