@@ -55,6 +55,16 @@ export default {
    * metadata for About Page
    */
   timestamps: [
+	  // Career
+	  // Activity
+	  {
+		category: 'Activity',
+		date: '2022. 3. - Present',
+		en: 'Hacker',
+		kr: '해커',
+		info: 'Kyung Hee University School of Computing Academic Club',
+		link: '',
+	  },
 	  // Contest
 	  {
 		category: 'Contest',
@@ -70,15 +80,6 @@ export default {
 		en: 'shake! 2023',
 		kr: '2023 경인지역 6개 대학 연합 프로그래밍 경시대회',
 		info: '경희대학교 선발전 7th Place, 본선 진출',
-		link: '',
-	  },
-	  // Activity
-	  {
-		category: 'Activity',
-		date: '2022. 3. - Present',
-		en: 'Hacker',
-		kr: '해커',
-		info: 'Kyung Hee University School of Computing Academic Club',
 		link: '',
 	  },
   ],

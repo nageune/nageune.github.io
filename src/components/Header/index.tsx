@@ -26,11 +26,11 @@ const Header: React.FC<HeaderProps> = ({ title, location }) => {
           </div>
         </div>
         <S.Menu>
-          <S.MenuLink to='/posts' isselected={pathname.includes('/posts').toString()}>
-            posts
-          </S.MenuLink>
           <S.MenuLink to='/about' isselected={(pathname === '/about').toString()}>
             about
+          </S.MenuLink>
+          <S.MenuLink to='/posts' isselected={pathname.includes('/posts').toString()}>
+            posts
           </S.MenuLink>
           <S.MenuLink to='/guestbook' isselected={(pathname === '/guestbook').toString()}>
             guestbook
