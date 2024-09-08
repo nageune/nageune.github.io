@@ -46,8 +46,8 @@ export default {
    */
   featured: [
     {
-      title: 'Featured',
-      category: 'featured-PS',
+      title: 'Experience',
+      category: 'featured-Experience',
     },
   ],
 
@@ -79,7 +79,7 @@ export default {
 		date: '2023. 9.',
 		en: 'shake! 2023',
 		kr: '2023 경인지역 6개 대학 연합 프로그래밍 경시대회',
-		info: '경희대학교 선발전 7th Place',
+		info: 'Kyung Hee University Trials 7th Place',
 		link: 'https://shake.codes',
 	  },
 	  // Certificate

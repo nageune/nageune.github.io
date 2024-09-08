@@ -2,7 +2,7 @@
 emoji: 🌟
 title: '2023 경인지역 6개 대학 연합 프로그래밍 경시대회 shake! 후기'
 date: '2023-09-25'
-categories: featured-PS
+categories: featured-Experience PS
 ---
 ## 🌟 shake! 2023
 2023 경인지역 6개 대학 연합 프로그래밍 경시대회 shake!에 처음으로 출전했다. 경희대학교는 오프라인 선발전을 통해 10명의 본선 진출자를 뽑는데 7등을 차지했다. 경희대학교 선발전은 문제 SET는 한양대학교 ERICA의 ZOAC 2023 문제 SET를 빌려서 잔행했다. 문제 SET는 [여기](https://www.acmicpc.net/category/detail/3952)서 확인할 수 있다. 내가 잡았던 문제만 간단히 살펴보겠다.
