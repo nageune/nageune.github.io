@@ -76,6 +76,7 @@ export const Title = styled.div`
 
 export const Date = styled.div`
   font-size: 13px;
+  white-space: nowrap;
   color: ${({ theme }) => theme.color.gray60};
   font-family: GmarketSansLight;
   margin-top: 3px;
