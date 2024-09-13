@@ -62,7 +62,7 @@ export default {
 		date: '2022. 3. - Present',
 		en: 'Hacker',
 		kr: '해커',
-		info: 'Kyung Hee University School of Computing Academic Club',
+		info: 'Kyung Hee Univ. School of Computing Academic Club',
 		link: 'https://www.instagram.com/khu_hacker',
 	  },
 	  // Contest
@@ -79,7 +79,7 @@ export default {
 		date: '2023. 9.',
 		en: 'shake! 2023',
 		kr: '2023 경인지역 6개 대학 연합 프로그래밍 경시대회',
-		info: 'Kyung Hee University Trials 7th Place',
+		info: 'Kyung Hee Univ. Trials 7th Place',
 		link: 'https://shake.codes',
 	  },
 	  // Certificate
@@ -88,7 +88,7 @@ export default {
 		date: '2023. 4.',
 		en: 'Craftsman Information Processing',
 		kr: '정보처리기능사',
-		info: 'National Technical Qualification from HRDK',
+		info: 'National Technical Qualification',
 		link: 'https://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=6921',
 	  },
   ],
