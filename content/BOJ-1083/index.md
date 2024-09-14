@@ -13,7 +13,7 @@ categories: BOJ
 <br/><br/>
 
 ## ⌨️ 코드
-```c++
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
