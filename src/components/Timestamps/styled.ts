@@ -83,6 +83,7 @@ export const Title = styled.div`
 export const TitleEn = styled.div`
   font-family: GmarketSansMedium;
   font-size: 16px;
+  white-space: normal;
   @media ${MOBILE_MEDIA_QUERY} {
     font-size: 13px;
   }
@@ -90,6 +91,7 @@ export const TitleEn = styled.div`
 
 export const TitleKr = styled.div`
   font-size: 13px;
+  white-space: normal;
   margin-left: 5px;
   display: flex;
 
@@ -104,6 +106,7 @@ export const TitleKr = styled.div`
 
 export const Info = styled.div`
   font-size: 14px;
+  white-space: normal;
   margin-top: 5px;
   @media ${MOBILE_MEDIA_QUERY} {
     font-size: 10px;
