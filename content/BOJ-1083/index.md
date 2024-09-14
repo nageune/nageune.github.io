@@ -1,5 +1,5 @@
 ---
-emoji: 💻
+emoji: ✔️
 title: 'BOJ 1083 소트'
 date: '2024-09-14'
 categories: BOJ
