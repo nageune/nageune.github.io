@@ -5,7 +5,7 @@ date: '2024-09-15'
 categories: BOJ
 ---
 ## 📝 문제
-[문제 링크](https://boj.kr/23835)
+<a href="https://boj.kr/23835" target="_blank">문제 링크</a>
 <br/><br/>
 
 ## 📖 설명
@@ -25,28 +25,29 @@ vector<int> adj[1001];
 int arr[1001], visited[1001];
 
 int dfs(int cnt, int dest, int curr) {
-    if (curr == dest) {
-        arr[curr] += cnt;
-        return 1;
+    if (curr == dest) { // 목적지에 도달했다면
+        arr[curr] += cnt; // 우유를 배달하고
+        return 1; // 이전 우유들을 회수하지 않음
     }
-    for (int i : adj[curr]) {
-        if (!visited[i]) {
-            visited[i] = 1;
-            arr[curr] += cnt;
-            int tmp = dfs(cnt + 1, dest, i);
-            visited[i] = 0;
-            if (tmp == 1)
-                return 1;
-            arr[curr] -= cnt;
+	// 목적지에 도달한 것이 아니라면
+    for (int i : adj[curr]) { // 현재 위치에서 각 간선으로
+        if (!visited[i]) { // 아직 방문하지 않았다면
+            visited[i] = 1; // 방문 체크하고
+            arr[curr] += cnt; // 우유를 일단 배달하고
+            int tmp = dfs(cnt + 1, dest, i); // 다음 방으로 이동
+            visited[i] = 0; // 방문 체크 취소
+            if (tmp == 1) // 만약 이후의 경로에서 목적지에 도달했다면
+                return 1; // 이전 우유들을 회수하지 않음
+            arr[curr] -= cnt; // 이후의 경로에서 목적지에 도달하지 못하면 우유를 회수
         }
     }
-    return 0;
+    return 0; // 목적지에 도달하지 않음
 }
 
 signed main() {
     cin.tie(0)->sync_with_stdio(0);
     cin >> n;
-    for (int i = 0; i < n - 1; i++) {
+    for (int i = 0; i < n - 1; i++) { // 간선 입력
         int a, b;
         cin >> a >> b;
         adj[a].push_back(b);
@@ -56,13 +57,15 @@ signed main() {
     while (q--) {
         int t;
         cin >> t;
-        if (t == 1) {
+        if (t == 1) { // 1번 쿼리
             int u, v;
             cin >> u >> v;
+			// u번 방부터 시작해서 v번 방에 도착하는 경로를 찾으며 우유 배달
             visited[u] = 1;
             dfs(0, v, u);
             visited[u] = 0;
-        } else {
+        } else { // 2번 쿼리
+			// 현재까지 x번 방에 배달된 우유의 수 조회
             int x;
             cin >> x;
             cout << arr[x] << '\n';
