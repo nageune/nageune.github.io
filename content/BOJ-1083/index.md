@@ -5,7 +5,7 @@ date: '2024-09-14'
 categories: BOJ
 ---
 ## 📝 문제
-[문제 링크](https://boj.kr/1083)
+<a href="https://boj.kr/1083" target="_blank">문제 링크</a>
 <br/><br/>
 
 ## 📖 설명
@@ -26,11 +26,14 @@ signed main() {
     for (int i = 0; i < N; i++)
         cin >> A[i];
     cin >> S;
+	// S를 다 소진하지 않았거나 범위를 넘어가지 않았을 때
     for (int i = 0; i < N && S > 0; i++) {
+		// 범위를 초과하지 않는 선에서 i번째부터 i+S번째 원소까지 최댓값의 index 찾기
         int maxIndex = i;
         for (int j = i; j <= min(N - 1, i + S); j++)
             if (A[maxIndex] < A[j])
                 maxIndex = j;
+		// 찾은 최댓값 원소를 끌어오기
         for (int j = maxIndex; j > i; j--, S--)
             swap(A[j], A[j - 1]);
     }
