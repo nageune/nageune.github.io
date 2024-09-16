@@ -67,20 +67,20 @@ export default {
 	  },
 	  // Contest
 	  {
+    category: 'Contest',
+    date: '2023. 9.',
+    en: 'shake! 2023',
+    kr: '2023 경인지역 6개 대학 연합 프로그래밍 경시대회',
+    info: 'Kyung Hee Univ. Trials 7th Place',
+    link: 'https://shake.codes',
+    },
+    {
 		category: 'Contest',
 		date: '2022. 9.',
 		en: '2022 KHU Club Unity Contest',
 		kr: '2022 경희대학교 동아리 단합 공모전',
 		info: '3rd Prize',
 		link: '',
-	  },
-	  {
-		category: 'Contest',
-		date: '2023. 9.',
-		en: 'shake! 2023',
-		kr: '2023 경인지역 6개 대학 연합 프로그래밍 경시대회',
-		info: 'Kyung Hee Univ. Trials 7th Place',
-		link: 'https://shake.codes',
 	  },
 	  // Certificate
 	  {
